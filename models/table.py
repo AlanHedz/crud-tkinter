@@ -9,5 +9,5 @@ class Persona(db.Entity):
 	name = Required(str)
 	age = Required(int)
 
-db.bind('postgres', user='postgres', password='lol123', host='localhost', database='python_demo')
+db.bind('', user='', password='', host='', database='')
 db.generate_mapping(create_tables=True)
